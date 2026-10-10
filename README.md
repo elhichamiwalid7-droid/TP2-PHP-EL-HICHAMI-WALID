@@ -9,4 +9,4 @@ les noms de variables dans PHP sont sensibles  a la casse, donc $note et $Note s
 - $AAA : valide, contient des lettres majuscules
 - $a1 : valide, car cette ecriture est autorise
 - $a! : invalide, car contient un caractere special qui est interdit
-- $1a : invalide, car commence par un chiffre qui est interdit en PHP
+- $1a : invalide, car commence par un chiffre qui est interdit en PHP.
