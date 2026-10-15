@@ -15,4 +15,13 @@ les noms de variables dans PHP sont sensibles  a la casse, donc $note et $Note s
 - var_dump(): est outil de debug pour le developpeur il affiche le type et la valeur exact.
              var_dump(false) affiche bool(false)
              var_dump(true) affiche bool(true)
+**Ex5: resutats des testes:**
+_ -1 --> Note invalide
+_ 9 --> Non valide
+_ 10 --> Passable
+_ 12 --> Assez bien
+_ 14 --> Bien
+_ 16 --> Tres bien
+_ 21 --> Note invalide
+==> les valeurs limites 10,12,14,16 sont correctement traitees,mais les notes invalides -1,21 ne recoivent aucune mention.
 
