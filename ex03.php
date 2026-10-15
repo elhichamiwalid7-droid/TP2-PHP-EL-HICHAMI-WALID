@@ -22,7 +22,7 @@
      echo " le totalTTC: " . $totalTTC . "<br>";
      // Q4. frais de livraison
      $totalTTC += 15;
-     echo "la totalTTC avec les frais de livraison: " . $totalTTC . "<br>";
+     echo "la totalTTC avec les frais de livraison: " . $totalTTC . DEVISE ."<br>";
     ?> 
     
     <?php
