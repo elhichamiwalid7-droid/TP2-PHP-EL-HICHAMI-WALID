@@ -24,7 +24,7 @@
 
      var_dump($string_to_int);
      var_dump($float_to_int);
-     var_dump($int_to_string );
+     var_dump($int_to_string);
      #4.
      echo $boolean1;
      echo $boolean2;
